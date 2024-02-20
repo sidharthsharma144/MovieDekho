@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.home-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/popcorn.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 1500px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 15vw;
+    top: -200px;
+}
+.nav-elements{
+    display: flex;
+    gap: 1rem;
+    /* text-decoration: none; */
+}
+.nav-elements a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.8s;
+    font-size: 1.5rem;
+}
+
+.nav-elements :hover{
+    transform: scaleX(1.2);
+}
